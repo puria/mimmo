@@ -1,0 +1,43 @@
+name: User Story
+description: Suggest here expected new behaviours.
+labels: ["Type: Enhancement :gift:"]
+body:
+  - type: textarea
+    attributes:
+      label: As a
+      placeholder: type of user
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: I want to
+      placeholder: perform some task
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+        label: so that I can
+        placeholder: achieve some goal
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+        value: |
+          -----
+          ## Acceptance criteria
+  - type: textarea
+    attributes:
+        label: Given
+        placeholder: some context
+  - type: textarea
+    attributes:
+        label: When
+        placeholder: some action is carried out
+  - type: textarea
+    attributes:
+        label: Then
+        placeholder: a set of observable outcomes should occur
+
+  - type: markdown
+    attributes:
+        value: Once compiled remember to add Priority and Type labels
