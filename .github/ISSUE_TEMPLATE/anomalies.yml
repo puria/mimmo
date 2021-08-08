@@ -1,0 +1,35 @@
+name: Anomalie
+description: Se riscontri delle anomalie di funzionamento puoi riportarle qui
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Grazie** per avere la il tempo e la pazienza di riportare un'anomalia. Ti preghiamo di compilare il modulo sottostante cercando di riempire tutti i campi, possibilmente in modo esaustivo.
+  - type: textarea
+    attributes:
+      label: Anomalia
+      description: Descrivi l'anomalia che hai riscontrato in modo preciso e conciso
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Indirizzo (il link) dove capita il problema
+  - type: dropdown
+    attributes:
+      label: È riproducibile?
+      options:
+        - No, è capitato solo una volta
+        - Sì, riesco a riprodurre il problema
+  - type: textarea
+    attributes:
+      label: Quali sono i passaggi per riprodurre il problema
+      value: "1."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: C'è un messaggio di errore?
+      description: Se viene visualizzato un messaggio di errore puoi riportarlo
+  - type: textarea
+    attributes:
+      label: Allega trascinando qui, immagini o video di supporto per far capire meglio l'anomalia
