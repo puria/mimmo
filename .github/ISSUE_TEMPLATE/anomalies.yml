@@ -14,7 +14,8 @@ body:
       required: true
   - type: input
     attributes:
-      label: Indirizzo (il link) dove capita il problema
+      label: Indirizzo
+      description: Inserisci qui il puntatore (link) alla pagina specifica dove si verifica il problema
   - type: dropdown
     attributes:
       label: È riproducibile?
