@@ -4,7 +4,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Grazie** per avere la il tempo e la pazienza di riportare un'anomalia. Ti preghiamo di compilare il modulo sottostante cercando di riempire tutti i campi, possibilmente in modo esaustivo.
+        ### **Grazie** per avere la il tempo e la pazienza di riportare un'anomalia.
+        Ti preghiamo di compilare il modulo sottostante cercando di riempire tutti i campi, possibilmente in modo esaustivo.
   - type: textarea
     attributes:
       label: Anomalia
