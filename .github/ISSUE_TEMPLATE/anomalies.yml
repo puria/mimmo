@@ -32,7 +32,11 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: C'è un messaggio di errore?
+      label: Cosa ti aspettavi di vedere?
+      description: Riempimi se ti aspettavi un comportamento diverso
+  - type: textarea
+    attributes:
+      label: Cos'hai visto, invece?
       description: Se viene visualizzato un messaggio di errore puoi riportarlo
   - type: textarea
     attributes:
