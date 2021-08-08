@@ -1,5 +1,7 @@
 name: Anomalie
 description: Se riscontri delle anomalie di funzionamento puoi riportarle qui
+title: "[Anomalia] "
+labels: ["Type: Defect :woman_shrugging:"]
 body:
   - type: markdown
     attributes:
